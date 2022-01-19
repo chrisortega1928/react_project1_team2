@@ -212,23 +212,30 @@ footer .footer_copyright {
 /*====================
         VENUE NFO
 ======================*/
+
+
 .bck_black h1 {
     text-align: center;
     /*Meet the stuff - color changed*/
-    color: #0057a7;
+    color: #edeff1;
     padding: 30px, 0px;
+    padding-top: 30px;
+    
 }
 .vn_wrapper {
     display: flex;
     padding-bottom: 100px;
+    justify-content: center;
+    
 }
 
 .vn_item {
     width:33%;
-    color: #0057a7;
+    color: #bb5555;
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
+    font-weight: bolder;
 }
 
 .vn_item .vn_outer {
@@ -426,12 +433,12 @@ footer .footer_copyright {
 .pricing_wrapper .pricing_item {
     flex-grow: 1;
     width: 33%;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
 .pricing_wrapper .pricing_inner_wrapper {
-    border: 2px solid #896E60;
+    border: 2px solid #f5fe58;
     padding: 50px 20px;
 }
 
@@ -541,3 +548,87 @@ footer .footer_copyright {
 }
 
 
+/* */
+/*Social media*/
+
+/* Social meida CSS */
+
+#socialmedia_icon {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    width:40%;
+}
+
+.fa {
+    padding: 20px;
+
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+
+
+#next_olympics
+{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+
+}
+#nextOlympicsH2 {
+    text-align: center;
+    font-size: 30px;
+}
+.nol{
+  
+    margin: auto;
+    padding: 10px;
+}
+.olicn {
+    border-style: solid;
+    border-color: #e01749;
+    border-width: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 250px;                  
+}
+.olicn:hover {
+    border-color: rgb(187, 203, 204);
+}

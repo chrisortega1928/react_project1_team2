@@ -40,7 +40,7 @@ class Discount extends Component {
 
                         <div className="discount_description">
                         <Slide right>
-                            <h3>Some Quotes from our Instrutor</h3>
+                            <h3>Some Quotes From The Athletes</h3>
                         </Slide>
                             <Fade delay={500}>
                                 <blockquote>
