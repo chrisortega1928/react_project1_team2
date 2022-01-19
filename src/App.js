@@ -9,6 +9,7 @@ import Highlights from './components/Highlights';
 import Pricing from './components/pricing';
 import Location from './components/location';
 import Footer from './components/header_footer/Footer';
+import SocialMedia from './components/social_media';
 
 
 class App extends Component {
@@ -35,6 +36,10 @@ class App extends Component {
 
         <Element name="location">
           <Location/>
+        </Element>
+
+        <Element name="social_media">
+          <SocialMedia/>
         </Element>
 
         <Footer/>
