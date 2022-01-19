@@ -80,10 +80,14 @@ header .header_logo_title {
   
     justify-content: space-around;
     align-items: center;
+
+    display: inline-block;
 }
 
 .team-window{
    border: solid;
+   border-width: 1px;
+   
 
 }
 .member{
@@ -91,6 +95,10 @@ header .header_logo_title {
     flex-wrap: wrap;
     width: 7.5rem;
     height: max-content;
+}
+
+.members .item{
+    padding: 40px 80px;
 }
 
 /*====================
@@ -101,13 +109,9 @@ footer {
     padding: 20px 0px;
     text-align: center;
     font-size: 20px;
-    color: #0057a7;
-    /*
-    background-image: url("img_mountain");
-    
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-*/
+
+    color: #0e328f;
+
     background-color: #ffffff;
 }
 
