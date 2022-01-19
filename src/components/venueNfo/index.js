@@ -8,7 +8,7 @@ import suzanne from '../../resources/images/Players/suzanne.jpg'
 const VunueNfo = () => {
     return (
         <div className="bck_black">
-            <h1>SOME OF THE PLAYERS.</h1>
+            <h1>SOME OF THE PLAYERS</h1>
             <div className="center_wrapper">
                 <div className="vn_wrapper">
                     <Zoom duration={500}>

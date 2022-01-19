@@ -6,7 +6,7 @@ import Discount from './Discount';
 const Highlights = () => {
     return (
         <div className="hightlight_wrapper">
-            <ColumnCards/>
+            
             <Description/>
             <Discount/>
         </div>
