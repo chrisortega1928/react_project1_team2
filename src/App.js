@@ -10,7 +10,7 @@ import Pricing from './components/pricing';
 import Location from './components/location';
 import Footer from './components/header_footer/Footer';
 import SocialMedia from './components/social_media';
-
+import Sports from './components/sports';
 
 class App extends Component {
   render() {
@@ -20,6 +20,10 @@ class App extends Component {
         
         <Element name="featured">
           <Featured/>
+        </Element>
+        
+        <Element name="sports">
+          <Sports/>
         </Element>
 
         <Element name="venueHfo">
