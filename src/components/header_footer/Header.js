@@ -46,8 +46,8 @@ class Header extends Component {
             }}>
                 <Toolbar>
                     <div className="header_logo">
-                        <div className="font_righteous header_logo_venue">TTP Bootcamp</div>
-                        <div className="header_logo_title">JJAY 2021 | JJAY TTP Cohort</div>
+                        <div className="font_righteous header_logo_venue">Winter Olympics</div>
+                        <div className="header_logo_title">JJAY 2022 | JJAY TTP Cohort</div>
                     </div>
 
                     <IconButton impact-label="Menu" color="inherit" onClick={()=> this.toggleDrawer(true)}>
