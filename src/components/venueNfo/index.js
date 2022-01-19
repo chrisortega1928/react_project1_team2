@@ -1,10 +1,10 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
-import brad from '../../resources/images/Players/brad.jpg'
-import chloe from '../../resources/images/Players/chloe.jpg'
-import hanyu from '../../resources/images/Players/hanyu.jpg'
-import mikaela from '../../resources/images/Players/mikaela.jpg'
-import suzanne from '../../resources/images/Players/suzanne.jpg'
+import brad from '../../resources/images/players/brad.jpg'
+import chloe from '../../resources/images/players/chloe.jpg'
+import hanyu from '../../resources/images/players/hanyu.jpg'
+import mikaela from '../../resources/images/players/mikaela.jpg'
+import suzanne from '../../resources/images/players/suzanne.jpg'
 const VunueNfo = () => {
     return (
         <div className="bck_black">
