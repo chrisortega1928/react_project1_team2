@@ -24,7 +24,7 @@ const Footer = () => {
                         color: "#0057a7"
                         
                         }}
-                    >BootCamp Countdown
+                    >Olympics Countdown
                     </a>
                 </Tooltip>
                 </div>
@@ -32,12 +32,11 @@ const Footer = () => {
                 <div className="footer_copyright">JJAY TTP, Team 2. All rights reserved ©</div>
                 <div className="footer_copyright">
                     <ul style ={{listStyleType: "none"}}>
-                        <li>Cenk Cafer</li>
-                        <li>Olviia-Nikol Andriievska</li>
-                        <li>Shirley Ni</li>
-                        <li>Jason Orr</li>
-                        <li>Jayzy Padilla</li>
-                        <li>Simranjeet Singh</li>
+                        <li>Team Leaders: Syeda, Ege, Hilal</li>
+                        <li>Team Members: Robert, Cenk, Christopher, Ankit</li>
+                        <li>Kirana, Humayun, Jeyrel, Chelsea,</li>
+                        <li>Gabriel, Nanami, Michael, Md</li>
+
 
                     </ul>
                 </div>

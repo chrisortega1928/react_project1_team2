@@ -31,6 +31,7 @@ body {
     background: #ffa800;
 }
 
+
 .iconImage {
     width: 20px;
     margin-right: 10px;
@@ -302,6 +303,8 @@ footer .footer_copyright {
 } 
 
 
+
+
 .discount_wrapper .discount_description h3 {
     font-size: 34px;
     font-weight: 100;
@@ -313,6 +316,7 @@ footer .footer_copyright {
     line-height: 30px;
     font-size: 18px;
     font-weight: 300;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -453,6 +457,19 @@ footer .footer_copyright {
     text-align: center;
 }
 
+/* Social meida CSS */
 
+.socialmedia_icon {
+    background-color: #f1f1f1;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding:15px;
+    width:40%;
+}
+.smid {
+    padding: 5px;
+}
 
 
