@@ -69,6 +69,30 @@ header .header_logo_title {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+
+/* team member window */
+
+.team-container{
+    border:solid;
+    width: 100%;
+    display: flex;
+  
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-window{
+   border: solid;
+
+}
+.member{
+    display: flex;
+    flex-wrap: wrap;
+    width: 7.5rem;
+    height: max-content;
+}
+
 /*====================
         FOOTER
 ======================*/
