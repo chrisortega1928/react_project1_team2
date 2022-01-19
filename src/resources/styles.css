@@ -82,6 +82,9 @@ header .header_logo_title {
     align-items: center;
 
     display: inline-block;
+
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
 .team-window{
@@ -98,7 +101,7 @@ header .header_logo_title {
 }
 
 .members .item{
-    padding: 40px 80px;
+    padding: 40px 60px;
 }
 
 /*====================
@@ -109,6 +112,10 @@ footer {
     padding: 20px 0px;
     text-align: center;
     font-size: 20px;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 52px;
 
     color: #0e328f;
 
