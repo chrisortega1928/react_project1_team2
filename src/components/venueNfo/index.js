@@ -1,89 +1,114 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
-
-import Doug from '../../resources/images/staff/Doug.jpeg'
-import Istish from '../../resources/images/staff/Istish.png'
-import Genghis from '../../resources/images/staff/Genghis.jpg'
-
-/*image added*/
-import bigmountain_img from '../../resources/images/img_bigmountain.png';
-
+import brad from '../../resources/images/Players/brad.jpg'
+import chloe from '../../resources/images/Players/chloe.jpg'
+import hanyu from '../../resources/images/Players/hanyu.jpg'
+import mikaela from '../../resources/images/Players/mikaela.jpg'
+import suzanne from '../../resources/images/Players/suzanne.jpg'
 const VunueNfo = () => {
     return (
-        /*img added */
-        <div className="bck_black" style={{background:`url(${bigmountain_img})`,
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover'}}>
-            <h1>Meet the Staff</h1>
+        <div className="bck_black">
+            <h1>SOME OF THE PLAYERS.</h1>
             <div className="center_wrapper">
                 <div className="vn_wrapper">
-
                     <Zoom duration={500}>
                         <div className="vn_item">
                             <div className="vn_outer">
                                 <div className="vn_inner">
                                     <div className="vn_icon_square bck_brown"></div>
-                                    <img src= {Istish} alt="" className="staff_pic"
+                                    <img src= {brad} alt="" className="Players_pic"
                                         style={{width:"100%",
                                         height: "auto",
                                         textAlign: "center"}}/>
                                     <div className="vn_title">
-                                        Istishna Hussian
+                                        Brad Gushue
                                     </div>
                                     <div className="vn_desc">
-                                        Career Coach
+                                        Curling Player
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </Zoom>
-
                     <Zoom duration={500} delay={500}>
                         <div className="vn_item">
                             <div className="vn_outer">
                                 <div className="vn_inner">
                                     <div className="vn_icon_square bck_brown"></div>
-                                    <img src= {Doug} alt="" className="staff_pic"
+                                    <img src= {chloe} alt="" className="Players_pic"
                                         style={{width:"100%",
                                         height: "auto",
                                         textAlign: "center"}}/>
                                     <div className="vn_title">
-                                        Douglas Smith
+                                        Chloe Kim
                                     </div>
                                     <div className="vn_desc">
-                                        Program Manager
+                                       Snowboarder
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </Zoom>
-
                     <Zoom duration={500}>
                         <div className="vn_item">
                             <div className="vn_outer">
                                 <div className="vn_inner">
                                     <div className="vn_icon_square bck_brown"></div>
-                                    <img src= {Genghis} alt="" className="staff_pic"
+                                    <img src= {hanyu} alt="" className="Players_pic"
                                         style={{width:"100%",
                                         height: "auto",
                                         textAlign: "center"}}/>
                                     <div className="vn_title">
-                                        Genghis Lopez
+                                    Hanyu Yuzuru
                                     </div>
                                     <div className="vn_desc">
-                                        Lead Instructor
+                                        Skater
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </Zoom>
-
+                    <Zoom duration={500}>
+                        <div className="vn_item">
+                            <div className="vn_outer">
+                                <div className="vn_inner">
+                                    <div className="vn_icon_square bck_brown"></div>
+                                    <img src= {mikaela} alt="" className="Players_pic"
+                                        style={{width:"100%",
+                                        height: "auto",
+                                        textAlign: "center"}}/>
+                                    <div className="vn_title">
+                                    Mikaela Shiffrin
+                                    </div>
+                                    <div className="vn_desc">
+                                        Alpine Skier
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </Zoom>
+                        <Zoom duration={500}>
+                        <div className="vn_item">
+                            <div className="vn_outer">
+                                <div className="vn_inner">
+                                    <div className="vn_icon_square bck_brown"></div>
+                                    <img src= {suzanne} alt="" className="Players_pic"
+                                        style={{width:"100%",
+                                        height: "auto",
+                                        textAlign: "center"}}/>
+                                    <div className="vn_title">
+                                    suzanne Schulting
+                                    </div>
+                                    <div className="vn_desc">
+                                        Speed Skater
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </Zoom>
                 </div>
             </div>
         </div>
     );
 };
-
 export default VunueNfo;

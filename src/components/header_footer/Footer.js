@@ -61,7 +61,7 @@ const Footer = () => {
                                 Nanami<br></br>
                                 </div>
                                 <div class="item">
-                                Michaelv<br></br>
+                                Michael<br></br>
                                 Md<br></br>
                                 Cenk<br></br>
                                 </div>
